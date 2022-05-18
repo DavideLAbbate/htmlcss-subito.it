@@ -1,0 +1,152 @@
+*{
+    margin : 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.god-container {
+    width: 50%;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: rgba(113, 126, 143, .05);
+}
+
+/* upper list */
+.list1  a{
+    text-decoration: none;
+    color : rgb(113, 126, 143);
+}
+
+.list1 a:hover {
+    text-decoration: underline;
+}
+ul {
+    list-style: none;
+}
+
+.list1 li {
+    display:inline-block;
+    padding: 0 5px;    
+    border-right: 1px solid rgba(113, 126, 143, .20);
+}
+
+.list1 li:last-child{
+    margin-right: 10px;
+    border-right: 0;
+
+}
+
+.upper-list{
+    /* border: 1px solid red; */
+    font-size: 14px;
+    text-align: right;
+    padding: 10px 5px;   
+    border-bottom: 1px solid rgba(113, 126, 143, .20);
+}
+
+/* main-header */
+
+.main-header {
+    padding: 20px;
+    border-bottom: 1px solid rgba(113, 126, 143, .20);
+}
+.logo-header, .txt-header {
+    display: inline-block;
+    font-size : 15px;
+}
+
+.list2 a{
+    text-decoration: none;
+}
+
+.list2 a:hover {
+    text-decoration: underline;
+}
+.Acces{
+    color : rgb(60, 72, 88);
+    font-weight: 700;
+}
+
+.register{
+    color : rgb(60, 72, 88);
+}
+
+/* inserisci annuncio btn */
+.ins-ann{
+    background-color: rgb(254, 236, 235);
+    color: red;
+    padding:8px 25px;
+    display: inline-block;
+    font-weight: 700;
+    border: 0;
+    font-size : 18px;   
+
+}
+.icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid red;
+    border-radius: 25%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.ins-ann:hover {
+    border: 1px solid red ;
+    border-radius: 5%;
+}
+
+/* end inserisci annuncio */
+
+.list2 li {
+    display: inline-block;
+    padding: 0 18px;
+    text-align: right;
+}
+
+.logo-header img {
+    width: 250px;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 160px;
+}
+
+/* Search bar */
+
+.search-bar{
+
+    width: 900px;
+    background-color: #fff;
+    margin: 70px auto;    
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.search-bar input {
+    width: 190px;
+    height: 50px;
+}
+.search-bar h4 {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.search-btn img{
+    width: 20px;    
+}
+
+.search-btn{
+    margin-top: 18px;
+    height: 50px;
+    width: 70px;
+    border: 0;
+    background-color: rgb(249, 66, 58);
+    border-radius: 5%;
+    text-align: center;
+}
+
