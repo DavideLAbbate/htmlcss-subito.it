@@ -470,7 +470,7 @@ ul {
 /* apple cont */
 
 .apple-cont {
-    margin-top: 48px;
+    margin-top: 96px;
     max-width: 980px;
     padding:36px;
     border-radius: 4px;
@@ -495,3 +495,131 @@ ul {
     margin-top: 20px;
 }
 
+/* scopri di piu */
+
+.scopridipiu{
+    border-top: 1px solid #dfe3ed;
+    padding: 32px 0 0;
+    max-width: 980px;
+    position: relative;
+    margin: 48px auto 32px ;
+    border-bottom: 1px solid #dfe3ed;
+    
+}
+
+.scopridipiu h2{
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.scopridipiu h5{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 4px;
+
+}
+
+.scopridipiu h6 {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #717e8f;
+    font-size:15px;
+}
+
+.scopridipiu p {
+    font-size: 14px;
+    color: #717e8f;
+    margin-bottom: 7px;
+}
+
+.scopridipiu p:last-child{
+    margin-bottom: 48px;
+}
+
+.Motori-color {
+    color: #2650FF;
+}
+
+.Market-color {
+    color: #F2A700;
+}
+
+.Immobili-color{
+    color: #9924FF;
+}
+
+.Lavoro-color {
+    color: #07BB9C;
+}
+
+/* footer */
+/* ho preso spunto qui */
+.footer {
+    width: 95%;
+    margin: 32px auto;
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer ul {
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 550px;
+    /* margin-right: 80px; */
+  }
+  
+  .footer li {
+    margin: 12px 0;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #717e8f;
+  }
+  
+  .footer li:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  .footer-list1{
+    flex-basis: 50%;
+  }
+  
+  .footer-list3{
+    flex-basis: 25%;
+  }
+  .footer-list1-1{
+    flex-basis: 25%;
+  }
+
+  /* .footer-list2 {
+      flex-basis: 25%;
+  } */
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .footer-logo {
+    width: 136px;
+    height: 32px;
+    margin-bottom: 16px;
+  }
+
+  .title {
+    color: #717e8f;
+    font-weight: 600;
+    font-size: 16px;
+  }
