@@ -7,9 +7,10 @@
 
 .god-container {
     width: 50%;
+    min-width: 980px;
     margin: 0 auto;
     height: 100vh;
-    background-color: rgba(113, 126, 143, .05);
+    /* background-color: rgba(113, 126, 143, .05); */
 }
 
 /* upper list */
@@ -51,6 +52,7 @@ ul {
     padding: 20px;
     border-bottom: 1px solid rgba(113, 126, 143, .20);
 }
+
 .logo-header, .txt-header {
     display: inline-block;
     font-size : 15px;
@@ -79,9 +81,8 @@ ul {
     padding:8px 25px;
     display: inline-block;
     font-weight: 700;
-    border: 0;
+    border: 1px solid transparent;
     font-size : 18px;   
-
 }
 .icon {
     display: inline-block;
@@ -120,15 +121,23 @@ ul {
 
     width: 900px;
     background-color: #fff;
+    border-radius: 4px;
     margin: 70px auto;    
     padding: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    box-shadow: 5px 5px 5px 5px rgba(0 0 0 / 10%);
+}
+
+.sb-bar, .ct-bar, .geo-bar{
+    flex-grow: 1;
+    padding-right: 25px;
+
 }
 
 .search-bar input {
-    width: 190px;
+    width: 100%;
     height: 50px;
 }
 .search-bar h4 {
@@ -140,8 +149,11 @@ ul {
     width: 20px;    
 }
 
+.btn-bar {
+    align-self: flex-end;
+}
+
 .search-btn{
-    margin-top: 18px;
     height: 50px;
     width: 70px;
     border: 0;
@@ -162,9 +174,6 @@ ul {
     margin : 0 10px;
     height: 150px;
     border-radius: 10px;
-}
-
-.categories-style{
     position: relative;
 }
 
